@@ -11,3 +11,56 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.social-links {
+  /*margin: 0 auto;*/
+  text-align: center;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.social-links .facebook:before {
+  content: ' ';
+  display: inline-block;
+  background-image: url("../images/social-icon-facebook.png");
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.social-links .pinterest:before {
+  content: ' ';
+  display: inline-block;
+  background-image: url("../images/social-icon-pinterest.png");
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+.social-links .twitter:before {
+  content: ' ';
+  display: inline-block;
+  background-image: url("../images/social-icon-twitter.png");
+  background-size: cover;
+  height: 42px;
+  width: 42px;
+}
+
+/*
+Stolen from Bootstrap
+https://getbootstrap.com/docs/4.0/utilities/screenreaders/
+*/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  border: 0;
+}
