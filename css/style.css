@@ -14,6 +14,11 @@ article a {
   text-decoration: none;
 }
 
+article footer {
+  border-bottom: 2px solid #000000;
+  border-top: 1px dotted #000000;
+}
+
 aside h1 {
   margin-bottom: 5px;
   text-transform: uppercase;
