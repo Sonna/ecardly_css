@@ -4,6 +4,7 @@ body {
   background-color: #D7D7D7;
   background-image: url("../images/background.jpg");
   background-repeat: repeat-x;
+  font-family: 'Arial', sans-serif;
   margin: 0;
 }
 
