@@ -6,10 +6,22 @@ body {
   background-repeat: repeat-x;
 }
 
+main {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+}
+
 /*header img {*/
 .brand-logo {
   display: block;
   margin: 0 auto;
+}
+
+.container {
+  display: flex;
 }
 
 .social-links {
