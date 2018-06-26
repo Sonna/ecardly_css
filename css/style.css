@@ -15,6 +15,7 @@ article a {
 }
 
 aside h1 {
+  margin-bottom: 5px;
   text-transform: uppercase;
 }
 
@@ -57,7 +58,14 @@ nav a {
   text-decoration: none;
 }
 
-/*header img {*/
+.advertisements {
+  margin-top: 10px;
+}
+
+.advertisements img {
+  padding-top: 10px;
+}
+
 .brand-logo {
   display: block;
   margin: 0 auto;
@@ -87,6 +95,7 @@ nav a {
 }
 
 .social-links a {
+  display: inline-block;
   text-decoration: none;
 }
 
